@@ -1,0 +1,81 @@
+.space {
+    background-image: url("../src/space.png");
+    position: absolute;
+    width: 70%;
+    height: 100%;
+}
+.planet-area {
+    bottom: 0;
+    left: 0;
+}
+.planet {
+    position: absolute;
+    z-index: 3;
+    width: 60%;
+    height: 80%;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+.rocket {
+    position: absolute;
+    z-index: 2;
+    transform: rotate(25deg);
+    width: 30%;
+    height: 40%;
+    bottom: 35%;
+    left: 30%;
+}
+body {
+    background-color: black;
+    padding: 0 15%;
+}
+.control-panel {
+    background: linear-gradient(grey, black);
+    position: absolute;
+    left: 52%;
+    top: 10%;
+    width: 32vw;
+    height: 40vh;
+    border-radius: 20%;
+    text-align: center;
+}
+.flex-item1 {
+    margin: 20px;
+}
+.flex-item {
+    transform: rotate(270deg);
+}
+.check-buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 0;
+    position: absolute;
+    top: 5%;
+    bottom: 60%;
+    left: 12%;
+}
+.levers {
+    display: flex;
+    flex-direction: row;
+    padding: 10% 0;
+    position: absolute;
+    top: 40%;
+    bottom: 20%;
+}
+.launch {
+    position: absolute;
+    top: 92%;
+    bottom: 0;
+    left: 40%;
+    right: 40%;
+}
+.control-panel__inner {
+    background-color: rgba(225, 255, 255, 0.5);
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    border-radius: 20%;
+}
